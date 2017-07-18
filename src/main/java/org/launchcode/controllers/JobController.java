@@ -46,7 +46,7 @@ public class JobController {
         // redirect to the job detail view for the new Job.
 
         if (errors.hasErrors()){
-            //return some kind of error thing
+            //returns the error message in JobForm.java
             return "new-job";
         }
 
